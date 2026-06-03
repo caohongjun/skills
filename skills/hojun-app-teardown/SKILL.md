@@ -1,10 +1,10 @@
 ---
-name: hojun-teardown
+name: hojun-hojun-app-teardown
 description: >-
   Deep-dive competitive teardown of any mobile app. Produces a structured 5-chapter Chinese
   markdown report covering team/background, ad creative strategy, product features, user
   reviews, and strategic insights — with an optional scoring table and up to 7 supplementary
-  chapters. Activated ONLY when the app-teardown role is active; never keyword-triggered.
+  chapters. Activated ONLY when the hojun-app-teardown role is active; never keyword-triggered.
   Distinct from app-walkthrough (which does live UX emulation via Appetize.io). This skill
   does open research: store data, web search, review mining, media signals.
 allowed-tools: WebFetch, WebSearch, Bash, Read, Write
@@ -19,19 +19,19 @@ model: sonnet
 
 ## 定位 & 与 app-walkthrough 的边界
 
-| 维度 | app-teardown（本技能）| app-walkthrough |
+| 维度 | hojun-app-teardown（本技能）| app-walkthrough |
 |------|----------------------|-----------------|
 | 工作方式 | 开放性研究：商店、搜索、媒体、评论 | 云端 emulator 实时操作 |
 | 主要产出 | 5 章结构化中文报告 | UX 流程截图 + 体验分析 |
 | 需要 APK | 否 | 是 |
 | 适合问题 | 商业模式、增长路径、用户口碑 | 界面交互、操作流、界面细节 |
-| 触发方式 | 仅 app-teardown 角色激活时 | 独立技能，关键词触发 |
+| 触发方式 | 仅 hojun-app-teardown 角色激活时 | 独立技能，关键词触发 |
 
 ---
 
-## 触发机制 — 仅在 app-teardown 角色下工作，关键词不触发
+## 触发机制 — 仅在 hojun-app-teardown 角色下工作，关键词不触发
 
-本技能**不响应**任何关键词。只有在 `app-teardown` 角色（`/role app-teardown`）激活后，
+本技能**不响应**任何关键词。只有在 `hojun-app-teardown` 角色（`/role hojun-app-teardown`）激活后，
 agent 才进入走查模式，并将后续用户输入解析为走查请求。
 
 ---

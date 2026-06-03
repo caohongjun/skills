@@ -12,7 +12,7 @@ npx skills add caohongjun/skills -g --all
 
 # 安装单个技能
 npx skills add caohongjun/skills -g --skill hojun-book
-npx skills add caohongjun/skills -g --skill hojun-teardown
+npx skills add caohongjun/skills -g --skill hojun-app-teardown
 
 # 查看仓库中有哪些技能
 npx skills add caohongjun/skills -l
@@ -38,7 +38,7 @@ git clone https://github.com/caohongjun/skills.git ~/.claude/plugins/hojun-skill
 | 技能 | 说明 |
 |------|------|
 | **hojun-book** | 读书技能 — 输入一本书，输出走查 + 拆书两份合并交付的 Markdown 文件 |
-| **hojun-teardown** | 产品走查技能 — 对任意移动 App 进行深度竞品走查，输出结构化中文报告（5章必含 + 7个可选章节） |
+| **hojun-app-teardown** | 产品走查技能 — 对任意移动 App 进行深度竞品走查，输出结构化中文报告（5章必含 + 7个可选章节） |
 
 ## 技能详情
 
@@ -59,11 +59,11 @@ git clone https://github.com/caohongjun/skills.git ~/.claude/plugins/hojun-skill
 走查这本书：《国富论》
 ```
 
-### hojun-teardown
+### hojun-app-teardown
 
 产品走查技能 — 对任意移动 App 进行深度竞品走查，输出结构化中文报告。
 
-**触发方式**：仅在 `hojun-teardown` 角色激活时工作（`/role hojun-teardown`）
+**触发方式**：仅在 `hojun-app-teardown` 角色激活时工作（`/role hojun-app-teardown`）
 
 **工作方式**：开放性研究（商店数据、网络搜索、媒体报道、用户评论挖掘）
 
@@ -74,7 +74,7 @@ git clone https://github.com/caohongjun/skills.git ~/.claude/plugins/hojun-skill
 
 **使用示例**：
 ```
-/role hojun-teardown
+/role hojun-app-teardown
 Glow https://apps.apple.com/us/app/glow-ai-therapy-chat/id6446215842
 ```
 
@@ -86,7 +86,7 @@ hojun-skills/
 │   ├── hojun-book/      # 读书技能
 │   │   ├── SKILL.md     # 技能定义文件
 │   │   └── README.md    # 技能详细说明
-│   └── hojun-teardown/  # 产品走查技能
+│   └── hojun-app-teardown/  # 产品走查技能
 │       ├── SKILL.md     # 技能定义文件
 │       └── README.md    # 技能详细说明
 ├── .claude-plugin/      # Claude Code 插件配置
