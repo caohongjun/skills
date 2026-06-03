@@ -1,16 +1,16 @@
-# app-teardown
+# hojun-teardown
 
 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 产品走查技能 — 对任意移动 App 进行深度竞品走查，输出结构化中文报告。
 
 ## 定位
 
-| 维度 | app-teardown（本技能）| app-walkthrough |
+| 维度 | hojun-teardown（本技能）| app-walkthrough |
 |------|----------------------|-----------------|
 | 工作方式 | 开放性研究：商店、搜索、媒体、评论 | 云端 emulator 实时操作 |
 | 主要产出 | 5 章结构化中文报告 | UX 流程截图 + 体验分析 |
 | 需要 APK | 否 | 是 |
 | 适合问题 | 商业模式、增长路径、用户口碑 | 界面交互、操作流、界面细节 |
-| 触发方式 | 仅 app-teardown 角色激活时 | 独立技能，关键词触发 |
+| 触发方式 | 仅 hojun-teardown 角色激活时 | 独立技能，关键词触发 |
 
 ## 安装
 
@@ -19,8 +19,8 @@
 git clone https://github.com/caohongjun/skills.git ~/.claude/plugins/hojun-skills
 
 # 或单文件
-mkdir -p ~/.claude/skills/app-teardown
-cp skills/appteardown/SKILL.md ~/.claude/skills/app-teardown/SKILL.md
+mkdir -p ~/.claude/skills/hojun-teardown
+cp skills/hojun-teardown/SKILL.md ~/.claude/skills/hojun-teardown/SKILL.md
 ```
 
 ## 使用
@@ -29,7 +29,7 @@ cp skills/appteardown/SKILL.md ~/.claude/skills/app-teardown/SKILL.md
 
 在 Claude Code 中输入：
 ```
-/role app-teardown
+/role hojun-teardown
 ```
 
 ### 第二步：输入走查请求

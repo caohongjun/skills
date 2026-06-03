@@ -1,5 +1,5 @@
 ---
-name: app-teardown
+name: hojun-teardown
 description: >-
   Deep-dive competitive teardown of any mobile app. Produces a structured 5-chapter Chinese
   markdown report covering team/background, ad creative strategy, product features, user
