@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Logs
+*.log
