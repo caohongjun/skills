@@ -39,6 +39,19 @@ npx skills add caohongjun/skills -l
 | `-l` | 列出仓库中的所有技能 |
 | `#md` | 使用 Markdown 格式输出（默认是 org-mode） |
 
+## 项目结构
+
+```
+hojun-skills/
+├── skills/              # 技能定义目录
+│   └── hojun-book/      # 单个技能
+│       └── SKILL.md     # 技能定义文件
+├── .claude-plugin/      # Claude Code 插件配置
+│   └── manifest.json    # 插件清单
+├── CLAUDE.md            # 插件元信息
+└── README.md            # 项目说明
+```
+
 ## 技能详情
 
 ### hojun-book
