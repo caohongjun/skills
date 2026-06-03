@@ -84,11 +84,9 @@ Glow https://apps.apple.com/us/app/glow-ai-therapy-chat/id6446215842
 hojun-skills/
 ├── skills/              # 技能定义目录
 │   ├── hojun-book/      # 读书技能
-│   │   ├── SKILL.md     # 技能定义文件
-│   │   └── README.md    # 技能详细说明
+│   │   └── SKILL.md     # 技能定义文件
 │   └── hojun-app-teardown/  # 产品走查技能
-│       ├── SKILL.md     # 技能定义文件
-│       └── README.md    # 技能详细说明
+│       └── SKILL.md     # 技能定义文件
 ├── .claude-plugin/      # Claude Code 插件配置
 │   └── manifest.json    # 插件清单
 ├── CLAUDE.md            # 插件元信息
