@@ -1,0 +1,13 @@
+{
+  "name": "hojun-skills",
+  "version": "1.0.0",
+  "description": "Hojun's personal Claude Code skills collection - book walkthrough, app teardown analysis",
+  "author": {
+    "name": "caohongjun",
+    "url": "https://github.com/caohongjun"
+  },
+  "repository": "https://github.com/caohongjun/skills",
+  "license": "MIT",
+  "keywords": ["skills", "book-reading", "app-teardown", "analysis"],
+  "skills": "./skills"
+}
