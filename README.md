@@ -13,17 +13,11 @@
 使用 `skills` CLI（基于 `npx`）一行安装：
 
 ```bash
-# 安装全部技能（全局, org-mode 格式）
+# 安装全部技能
 npx skills add caohongjun/skills -g --all
-
-# 安装全部技能 (Markdown 格式, 适用于 Obsidian / VSCode / Notion 等)
-npx skills add caohongjun/skills#md -g --all
 
 # 安装单个技能
 npx skills add caohongjun/skills -g --skill hojun-book
-
-# 安装单个技能 (Markdown 格式)
-npx skills add caohongjun/skills#md -g --skill hojun-book
 
 # 查看仓库中有哪些技能
 npx skills add caohongjun/skills -l
@@ -37,7 +31,6 @@ npx skills add caohongjun/skills -l
 | `--all` | 安装全部技能 |
 | `--skill <name>` | 指定安装单个技能 |
 | `-l` | 列出仓库中的所有技能 |
-| `#md` | 使用 Markdown 格式输出（默认是 org-mode） |
 
 ## 项目结构
 
@@ -69,7 +62,3 @@ hojun-skills/
 ```
 走查这本书：《国富论》
 ```
-
-## 致谢
-
-拆书部分思路参考自 [lijigang/ljg-book](https://github.com/lijigang/ljg-skills/blob/master/skills/ljg-book/SKILL.md)。
