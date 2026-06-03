@@ -96,7 +96,7 @@ agent 才进入走查模式，并将后续用户输入解析为走查请求。
 ### Step 8 — 撰写报告
 
 按 `references/article-template.md` 结构输出完整中文 markdown 报告，存入：
-`~/zylos/workspace/teardowns/<App名>-teardown-<YYYY-MM-DD>.md`
+`~/Documents/notes/{时间戳}--App走查-{App名}__app.md`
 
 ---
 

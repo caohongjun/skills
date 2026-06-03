@@ -92,3 +92,21 @@ hojun-skills/
 ├── CLAUDE.md            # 插件元信息
 └── README.md            # 项目说明
 ```
+
+## 输出配置
+
+### 输出格式
+所有技能均输出 **Markdown (.md)** 文件，方便阅读和二次编辑。
+
+### 输出路径
+
+| 技能 | 输出路径 |
+|------|---------|
+| hojun-book | `~/Documents/notes/{时间戳}--走查拆书-{书名}__book.md` |
+| hojun-app-teardown | `~/Documents/notes/{时间戳}--App走查-{App名}__app.md` |
+
+### 文件命名规则
+
+- **时间戳格式**：`YYYYMMDDTHHMMSS`（如 `20240115T143022`）
+- **文件后缀**：`__book.md`（书籍走查）、`__app.md`（App 走查）
+- **统一目录**：所有输出文件均保存至 `~/Documents/notes/`，便于集中管理和检索
