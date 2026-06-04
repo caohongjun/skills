@@ -3,6 +3,7 @@ name: hojun-app-teardown
 description: >-
   深度产品走查技能，输出结构化中文报告：理解产品本质，识别核心价值、增长逻辑、商业模式与关键假设。
   当用户发来 App 名称或商店链接、要求"走查 / 拆解 / 分析 / 研究 / 看一下这款 App / 这个 App 怎么样 / 帮我看下这个产品"时激活。
+user_invocable: true
 ---
 
 # hojun-app-teardown
