@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "hojun-app-teardown": {
+      "source": "caohongjun/skills",
+      "sourceType": "github",
+      "skillPath": "skills/hojun-app-teardown/SKILL.md",
+      "computedHash": "1157ace9078458bfe0b1f65145cfefa4cd4ec2153f603daadc54066d2c57c279"
+    }
+  }
+}
