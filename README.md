@@ -40,7 +40,7 @@ git clone https://github.com/caohongjun/skills.git ~/.claude/plugins/hojun-skill
 |------|------|
 | **hojun-book** | 读书技能 — 输入一本书，输出走查 + 拆书两份合并交付的 Markdown 文件 |
 | **hojun-app-teardown** | 产品走查技能 — 对任意移动 App 进行深度竞品走查，输出结构化中文报告（5章必含 + 7个可选章节） |
-| **hojun-ai-health-compainon** | AI 健康助手技能 — 提供饮食记录、健康咨询、健康管理建议等服务 |
+| **hojun-ai-health-compainon** | AI 健康助手技能 — 提供饮食记录、健康咨询、AI宠物健康情感互动、健康管理建议等服务 |
 
 ## 项目结构
 
