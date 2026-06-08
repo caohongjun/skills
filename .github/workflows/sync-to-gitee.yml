@@ -1,0 +1,17 @@
+name: 同步 GitHub → Gitee
+on:
+  push:
+    branches: [ '**' ]  # 所有分支都同步
+    tags: [ '**' ]     # 所有标签都同步
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 同步代码
+        uses: wearerequired/git-mirror-action@v1
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        with:
+          # 👇 只改这一行！换成你的 Gitee 仓库 SSH 地址
+          destination-repo: git@gitee.com:hojun666/skills.git
